@@ -1,0 +1,17 @@
+{
+  "name": "n8n-custom-extended",
+  "version": "1.0.0",
+  "description": "n8n with pre-installed community nodes",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "n8n install-nodes"
+  },
+  "dependencies": {
+    "n8n-nodes-ultimate-assistant": "latest",
+    "n8n-nodes-memory": "latest",
+    "n8n-nodes-chatgpt": "latest",
+    "n8n-nodes-openai": "latest",
+    "n8n-nodes-base": "latest"
+  }
+}
